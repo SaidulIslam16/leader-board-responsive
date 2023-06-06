@@ -126,3 +126,78 @@ article img {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* Courses Section */
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    background-color: #FFE4E8;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+
+.course {
+    padding: 10px;
+}
+
+.course img {
+    max-width: 100%;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details p {
+    margin: 0;
+}
+
+.course h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.instructer {
+    color: red;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+
+    .courses,
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+}
