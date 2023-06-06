@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
 }
 
 :root {
@@ -45,4 +46,12 @@ nav {
 
 .menu a {
     margin-left: 20px;
+}
+
+/* Top player and blog section */
+
+.board {
+    background-color: white;
+    padding: 20px;
+
 }
