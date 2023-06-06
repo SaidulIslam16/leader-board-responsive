@@ -79,4 +79,50 @@ nav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.board h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+/* Blog Section */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 46px
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+article img {
+    max-width: 90%;
+}
+
+.half {
+    max-width: 50%;
+}
+
+.blogs p {
+    color: gray;
+}
+
+.blogs span {
+    color: var(--heading-color);
+}
+
+.blogs h3 {
+    font-size: 20px;
+    font-weight: 600;
 }
